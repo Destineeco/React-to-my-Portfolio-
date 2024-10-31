@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <section>
-      <h1>Contact Me</h1>
+      <h1>Contact</h1>
       <form>
         <input type="text" placeholder="Name" required onChange={(e) => setName(e.target.value)} />
         <input type="email" placeholder="Email" required onChange={(e) => setEmail(e.target.value)} />
