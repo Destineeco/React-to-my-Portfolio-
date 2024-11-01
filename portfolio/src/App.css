@@ -1,8 +1,10 @@
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Arial', sans-serif;
+  
 }
 
 .logo {
@@ -40,7 +42,7 @@
 .read-the-docs {
   color: #888;
 }
-/* General Styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -49,15 +51,15 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #ECF0F1; /* Light Grey */
-  color: #34495E; /* Dark Grey */
+  background-color: #3f6675; 
+  color:#1a3d5f; 
   line-height: 1.6;
 }
 
 /* Header Styles */
 header {
-  background-color: #2C3E50; /* Dark Blue */
-  color: white;
+  background-color: rgb(253, 249, 249); 
+  color:  #1a3d5f;
   padding: 20px;
   text-align: center;
 }
@@ -69,17 +71,18 @@ header h1 {
 
 /* Navigation Styles */
 nav {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0;
+  display: inline-flex;
+  gap: 10px;
+  margin: 4px 0;
 }
 
 nav a {
-  color: #18BC9C; /* Teal */
+  color: #1a3d5f; 
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.2em;
-  transition: color 0.3s;
+  padding:20px
+ 
 }
 
 nav a:hover {
@@ -88,19 +91,15 @@ nav a:hover {
 
 /* Section Styles */
 section {
-  max-width: 800px;
-  margin: 20px auto;
+  margin: 15px auto;
   padding: 20px;
-  background-color: white; /* White */
+  background-color: rgb(253, 249, 249); 
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* About Me Styles */
-section img {
-  max-width: 100%;
-  border-radius: 8px;
-}
+
+
 
 /* Project Styles */
 .project {
@@ -108,41 +107,43 @@ section img {
 }
 
 .project h2 {
-  color: #2C3E50; /* Dark Blue */
+  color: #1a3d5f; 
 }
 
 .project img {
-  max-width: 100%;
-  border-radius: 4px;
+  width: 10%;
+  height:auto;
+
 }
 
-.project a {
-  display: block;
+.section a  {
+  display: inline;
+  gap: 10px;
   margin: 5px 0;
-  color: #18BC9C; /* Teal */
+  color: #082e26; 
   transition: color 0.3s;
 }
 
 .project a:hover {
-  color: #E74C3C; /* Red */
+  color: #E74C3C; 
 }
 
 /* Footer Styles */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #BDC3C7; /* Grey */
+  background-color: #BDC3C7; 
   margin-top: 20px;
 }
 
 footer a {
-  color: #2C3E50; /* Dark Blue */
+  color: #2C3E50; 
   text-decoration: none;
   transition: color 0.3s;
 }
 
 footer a:hover {
-  color: #E74C3C; /* Red */
+  color: #E74C3C; 
 }
 
 /* Form Styles */
@@ -163,14 +164,14 @@ form button {
   padding: 10px;
   border: none;
   border-radius: 4px;
-  background-color: #18BC9C; /* Teal */
+  background-color:#1a3d5f; 
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
+  
 
 form button:hover {
-  background-color: #16A085; /* Darker Teal */
+  background-color: #16A085; 
 }
 
 /* Responsive Styles */

@@ -5,7 +5,8 @@ import Footer from './components/footer';
 import AboutMe from './pages/aboutMe';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Resume from './pages/resume';
+import './App.css';
 
 const App = () => (
   <Router>

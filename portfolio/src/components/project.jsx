@@ -1,12 +1,18 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 const Project = ({ title, image, deployedLink, repoLink }) => (
-  <div>
+  <section>
     <h2>{title}</h2>
     <img src={image} alt={title} />
-    <a href={deployedLink}>View Deployed</a>
-    <a href={repoLink}>View GitHub</a>
-  </div>
+    <div>
+    {deployedLink && <Link to={deployedLink}>View Deployed</Link>}
+    {repoLink && <Link to={repoLink}>View GitHub</Link>}
+  
+
+    </div>
+    
+  </section>
   
 );
 

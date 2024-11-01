@@ -1,6 +1,7 @@
 import React from 'react';
 import img from "../assets/IMG_4854.jpg";
 
+
 const AboutMe = () => (
     <section>
       <img src= {img} alt="Destinee" />
