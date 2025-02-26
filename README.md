@@ -1,28 +1,8 @@
-# React-to-my-Portfolio-
+# React + Vite
 
-## Description
-This project is a personal portfolio built using React to showcase my work as a web developer. The portfolio highlights my skills, projects, and contact information, allowing potential employers and collaborators to evaluate my capabilities in building single-page applications.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[Descripton](#Descripton)
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Questions](#questions)
+Currently, two official plugins are available:
 
-
-## Installation
-Users must install node.js and npm and its node packages 
-
-## Usage
-```bash
-npm run dev
-``` 
-## License
-N/A
-  
-## Contributing
-Destineeco
-
-## Questions
-If you have any questions, feel free to reach out to me at [https://github.com/Destineeco/node-myREADME and desmil.co@gmail.com].
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

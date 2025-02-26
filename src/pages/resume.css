@@ -1,0 +1,103 @@
+/* General styles */
+:root {
+  --primary-color: #3d4046; /* Blue-800 */
+  --secondary-color: #bb86fc; /* Yellow-400 */
+  --background-color: #111a27; /* Slate-800 */
+  --text-color: #e6e8e9; /* Slate-50 */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Resume container */
+.resume {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header styles */
+.resume-header {
+  text-align: center;
+  background-color: var(--secondary-color); 
+  color: var(--background-color);
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color:#111a27;
+}
+
+.resume-header p {
+  margin: 5px 0;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--text-color);
+  padding-bottom: 5px;
+}
+
+/* Summary, Experience, Education, Skills */
+.summary, .experience, .education, .skills {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+}
+
+/* Job and School styles */
+.job, .school {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: var(--background-color);
+  border-left: 4px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.job h3, .school h3 {
+  margin: 0;
+  color: var(--text-color);
+}
+
+/* Skills list styles */
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
