@@ -10,7 +10,7 @@ import vehicle from '../assets/vehicle.jpg';
 const Portfolio = () => (
   <section className="portfolio-section">
     <h1 className="portfolio-header">My Projects</h1>
-    <div className="template">
+    <div className="project-grid">
       <Project 
         title="Vehicle Builder" 
         image={vehicle} 
