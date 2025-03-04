@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <section>
-      <h1 >Contact</h1>
+      <h1>Contact</h1>
       <form className="project">
         <input
           type="text"
@@ -26,11 +26,7 @@ const Contact = () => {
           required
           onChange={(e) => setMessage(e.target.value)}
         />
-        <button
-          type="submit"
-        >
-          
-        </button>
+        <button type="submit">Send</button>
       </form>
     </section>
   );

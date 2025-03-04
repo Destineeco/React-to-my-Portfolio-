@@ -128,45 +128,6 @@ article h1 {
   margin: 0 auto;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  article {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; /* Center-align text */
-    height: auto;
-    padding: 20px;
-  }
-
-  article img {
-    margin-right: 0;
-    margin-bottom: 20px; /* Add space below image on smaller screens */
-    border: 5px solid #bb86fc; /* Retain border on smaller screens */
-  }
-
-  article .text-container {
-    max-width: 100%;
-  }
-
-  article h1 {
-    font-size: 2.5rem;
-  }
-
-  .bio {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  article h1 {
-    font-size: 2rem;
-  }
-
-  .bio {
-    font-size: 0.9rem;
-  }
-}
-
 /* ------------------------------ CONTACT ------------------------------ */
 section {
   background-color: #3d4046; /* Blue-800 */
@@ -204,7 +165,7 @@ textarea {
 
 button {
   background-color: #bb86fc; /* Yellow-400 */
-  color: #111a27; /* Slate-800 */
+  color: #f2f5fa; /* Slate-800 */
   padding: 14px 20px;
   font-size: 1.2rem;
   border-radius: 8px;
@@ -276,25 +237,10 @@ button:focus {
   opacity: 0.85; /* Slight image fade on hover */
 }
 
-/* Title Box Shadow in Image */
-.project-card img + .project-info h2 {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  background-color: rgba(0, 0, 0, 0.6); /* Slight dark background */
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-}
-
 .project-info {
   position: relative;
   padding: 25px;
   text-align: center;
-  position: relative;
 }
 
 .project-info h2 {
@@ -318,7 +264,6 @@ button:focus {
   gap: 15px;
 }
 
-/* Button styling */
 .project-info .btn {
   display: inline-block;
   background-color: #bb86fc; /* Yellow-400 */
@@ -342,8 +287,8 @@ button:focus {
 
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
 @media (max-width: 768px) {
-  .portfolio-header {
-    font-size: 3rem;
+  .portfolio-grid {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
   }
 
   .project-info h2 {
@@ -374,15 +319,7 @@ button:focus {
   }
 
   .project-info .btn {
-    font-size: 0.9rem;
-    padding: 8px 15px;
-  }
-
-  article h1 {
-    font-size: 2rem;
-  }
-
-  .bio {
     font-size: 1rem;
+    padding: 8px 16px;
   }
 }

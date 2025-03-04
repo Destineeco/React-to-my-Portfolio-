@@ -1,51 +1,27 @@
 import React from 'react';
-import Project from '../components/Project';
-import paytracker from '../assets/emptracker.jpg';
-import downtimetracker from '../assets/machinetracker.jpg';
-import readme from '../assets/noderead.jpg';
-import mood from '../assets/mood.jpg';
-import emptracker from '../assets/emp.jpg';
-import vehicle from '../assets/vehicle.jpg';
+import Project from '../components/project';
+import weather from '../assets/weather.png';
+import GitAct from '../assets/GitAct.png';
 
 const Portfolio = () => (
   <section className="portfolio-section">
     <h1 className="portfolio-header">My Projects</h1>
     <div className="project-grid">
       <Project 
-        title="Vehicle Builder" 
-        image={vehicle} 
-        repoLink="https://github.com/Destineeco/Vehicle-Builder-" 
-        deployedLink="https://vehicle-builder.com" 
+        title="API Weather Forecast" 
+        image={weather} 
+        description="A weather forecast app that uses the OpenWeather API to provide current weather data for any city in the world. The app also provides a 5-day forecast for the selected city."
+        tag="typescript/api"
+        repoLink="https://github.com/Destineeco/Weather-Forecast" 
+        deployedLink="https://weather-forecast11.onrender.com" 
       />
       <Project 
-        title="JS Employee Payroll Tracker" 
-        image={paytracker} 
-        deployedLink="https://payroll-tracker.com" 
-        repoLink="https://github.com/Destineeco/js-employee-payroll" 
-      />
-      <Project 
-        title="Machine Downtime Tracker" 
-        image={downtimetracker} 
-        deployedLink="https://machinetracker.com" 
-        repoLink="https://github.com/Destineeco/machinetracker" 
-      />
-      <Project 
-        title="Node README Generator" 
-        image={readme} 
-        deployedLink="https://node-readme.com" 
-        repoLink="https://github.com/Destineeco/node-myREADME" 
-      />
-      <Project 
-        title="Mood Board" 
-        image={mood} 
-        deployedLink="https://moodboard.com" 
-        repoLink="https://github.com/Destineeco/moodboard" 
-      />
-      <Project 
-        title="Employee Tracker" 
-        image={emptracker} 
-        deployedLink="https://employee-tracker.com" 
-        repoLink="https://github.com/Destineeco/Employee-Tracker-" 
+        title="GitAction" 
+        image={GitAct} 
+        description="This project sets up a CI/CD pipeline using GitHub Actions to automate Cypress testing and deploy applications to Render. It ensures smooth integration, testing, and deployment for web applications.."
+        tag="Cypress testing"
+        repoLink="https://github.com/Destineeco/gitaction" 
+        deployedLink="https://gitact.onrender.com/" 
       />
     </div>
   </section>
